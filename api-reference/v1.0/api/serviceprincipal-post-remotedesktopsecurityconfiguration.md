@@ -27,7 +27,7 @@ Choose the permission or permissions marked as least privileged for this API. Us
 }
 -->
 ``` http
-POST /servicePrincipals/{servicePrincipalsId}/remoteDesktopSecurityConfiguration
+PATCH /servicePrincipals/{servicePrincipalsId}/remoteDesktopSecurityConfiguration
 ```
 
 ## Request headers
@@ -62,7 +62,7 @@ The following example shows a request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/v1.0/servicePrincipals/00af5dfb-85da-4b41-a677-0c6b86dd34f8/remoteDesktopSecurityConfiguration
+PATCH https://graph.microsoft.com/v1.0/servicePrincipals/00af5dfb-85da-4b41-a677-0c6b86dd34f8/remoteDesktopSecurityConfiguration
 Content-Type: application/json
 
 {
